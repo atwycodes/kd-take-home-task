@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply rounded-full border-2 border-transparent bg-indigo-800 px-6 py-2 text-sm font-semibold text-white;
+  }
+
+  .btn-secondary-active {
+    @apply rounded-full border-2 border-transparent bg-indigo-800 px-6 py-1 text-sm font-semibold text-white transition-colors duration-300;
+  }
+
+  .btn-secondary-inactive {
+    @apply rounded-full border-2 border-transparent px-6 py-1 text-sm font-semibold transition-colors duration-300;
+  }
+
+  .main-title {
+    @apply text-4xl font-bold text-slate-900;
+  }
+}
+
+.hide-faq {
+  padding: 0;
+  height: 0;
+  opacity: 0;
+}
