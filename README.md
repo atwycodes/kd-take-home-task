@@ -1,5 +1,7 @@
 ## Take Home Task - KD
 
+### [Live Project](https://atwycodes.github.io/kd-take-home-task/)
+
 This is a take home task to create a landing page based on a given design.
 
 It was required to only use:

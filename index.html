@@ -3,585 +3,571 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <script defer type="module" src="/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>AppLab</title>
   </head>
   <body>
-    <!-- navbar section -->
-    <nav
-      class="grid grid-cols-[600px_600px] place-content-center py-10 text-white"
-    >
-      <div class="main-title flex items-center text-orange-500">
-        App<span class="text-slate-900">Lab</span>
-      </div>
-      <div class="flex items-center gap-10 font-semibold">
-        <ul class="flex gap-4 text-slate-900">
-          <li>Home</li>
-          <li>Key Features</li>
-          <li>Pricing</li>
-          <li>Testimonial</li>
-          <li>FAQ</li>
-        </ul>
-        <button class="btn-primary">Try For Free</button>
-      </div>
-    </nav>
-
-    <!-- hero section -->
-    <section
-      style="background-image: url(./assets/illustrations/hero-bg.png)"
-      class="grid grid-cols-[500px_500px] justify-center py-10"
-    >
-      <div class="grid grid-flow-row place-content-center">
-        <div
-          class="self-center justify-self-start overflow-hidden rounded-full border-2 border-transparent bg-gray-300 pr-8"
-        >
-          ✅<span class="px-2 font-semibold"
-            >#1 Editor's Choice App of 2020</span
+    <div id="app">
+      <!-- navbar section -->
+      <nav
+        class="grid grid-cols-[600px_600px] place-content-center py-10 text-white"
+      >
+        <div class="main-title flex items-center text-orange-500">
+          App<span class="text-slate-900">Lab</span>
+        </div>
+        <div class="flex items-center gap-10 font-semibold">
+          <ul class="flex gap-4 text-slate-900">
+            <li>Home</li>
+            <li>Key Features</li>
+            <li>Pricing</li>
+            <li>Testimonial</li>
+            <li>FAQ</li>
+          </ul>
+          <button class="btn-primary">Try For Free</button>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <section
+        style="background-image: url(/pics/illustrations/hero-bg.png)"
+        class="grid grid-cols-[500px_500px] justify-center py-10"
+      >
+        <div class="grid grid-flow-row place-content-center">
+          <div
+            class="self-center justify-self-start overflow-hidden rounded-full border-2 border-transparent bg-gray-300 pr-8"
           >
-        </div>
-        <h1 class="text-5xl font-bold text-slate-900">
-          Best app for your modern lifestyle
-        </h1>
-        <p class="py-4">
-          Increase productivity with a simple to-do app, app for managing your
-          personal budgets.
-        </p>
-        <div class="flex gap-6">
-          <button class="btn-primary">Try for free</button>
-          <button class="font-semibold text-indigo-800">
-            Watch demo video
-          </button>
-        </div>
-      </div>
-      <img class="" src="./assets/illustrations/mobile.png" alt="" />
-    </section>
-
-    <!-- company referrals section -->
-    <section class="flex flex-col items-center justify-center py-10">
-      <div class="pb-4">Trusted by companies like</div>
-      <ul class="flex items-center justify-center gap-8">
-        <li>
-          <img src="./assets/gallery/company-1.png" alt="" />
-        </li>
-        <li>
-          <img src="./assets/gallery/company-2.png" alt="" />
-        </li>
-        <li>
-          <img src="./assets/gallery/company-3.png" alt="" />
-        </li>
-        <li>
-          <img src="./assets/gallery/company-4.png" alt="" />
-        </li>
-        <li>
-          <img src="./assets/gallery/company-5.png" alt="" />
-        </li>
-      </ul>
-    </section>
-
-    <!-- app features section -->
-    <section class="grid grid-cols-[500px_400px] place-content-center py-10">
-      <img src="./assets/illustrations/feature-bg.png" alt="" />
-      <div class="grid grid-flow-row">
-        <div>
-          <h1 class="main-title">Awesome apps features</h1>
+            ✅<span class="px-2 font-semibold"
+              >#1 Editor's Choice App of 2020</span
+            >
+          </div>
+          <h1 class="text-5xl font-bold text-slate-900">
+            Best app for your modern lifestyle
+          </h1>
           <p class="py-4">
             Increase productivity with a simple to-do app, app for managing your
-            personal budgets
+            personal budgets.
+          </p>
+          <div class="flex gap-6">
+            <button class="btn-primary">Try for free</button>
+            <button class="font-semibold text-indigo-800">
+              Watch demo video
+            </button>
+          </div>
+        </div>
+        <img class="" src="/pics/illustrations/mobile.png" alt="" />
+      </section>
+      <!-- company referrals section -->
+      <section class="flex flex-col items-center justify-center py-10">
+        <div class="pb-4">Trusted by companies like</div>
+        <ul class="flex items-center justify-center gap-8">
+          <li>
+            <img src="/pics/gallery/company-1.png" alt="" />
+          </li>
+          <li>
+            <img src="/pics/gallery/company-2.png" alt="" />
+          </li>
+          <li>
+            <img src="/pics/gallery/company-3.png" alt="" />
+          </li>
+          <li>
+            <img src="/pics/gallery/company-4.png" alt="" />
+          </li>
+          <li>
+            <img src="/pics/gallery/company-5.png" alt="" />
+          </li>
+        </ul>
+      </section>
+      <!-- app features section -->
+      <section class="grid grid-cols-[500px_400px] place-content-center py-10">
+        <img src="/pics/illustrations/feature-bg.png" alt="" />
+        <div class="grid grid-flow-row">
+          <div>
+            <h1 class="main-title">Awesome apps features</h1>
+            <p class="py-4">
+              Increase productivity with a simple to-do app, app for managing
+              your personal budgets
+            </p>
+          </div>
+          <div class="flex flex-col gap-14">
+            <div class="flex items-center gap-4">
+              <img
+                src="/pics/illustrations/icons/fast-performance.png"
+                alt="fast performance icon"
+                class="w-16"
+              />
+              <div class="flex-1">
+                <h3 class="font-bold text-red-500">Fast Performance</h3>
+                <p class="text-sm">
+                  Get your blood tests delivered at home collect a sample from
+                  the news your blood tests
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <img
+                src="/pics/illustrations/icons/prototype.png"
+                alt="fast performance icon"
+                class="w-16"
+              />
+              <div class="flex-1">
+                <h3 class="font-bold text-blue-500">Prototyping</h3>
+                <p class="text-sm">
+                  Get your blood tests delivered at home collect a sample from
+                  the news your blood tests
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <img
+                src="/pics/illustrations/icons/vector.png"
+                alt="fast performance icon"
+                class="w-16"
+              />
+              <div class="flex-1">
+                <h3 class="font-bold text-green-500">Vector Editing</h3>
+                <p class="text-sm">
+                  Get your blood tests delivered at home collect a sample from
+                  the news your blood tests
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- catchphrase section -->
+      <section class="grid grid-cols-[500px_500px] place-content-center py-10">
+        <div class="main-title self-center justify-self-end border-r-2 px-8">
+          <p>Smart jackpots that you may love this anytime & anywhere</p>
+        </div>
+        <div class="self-center justify-self-start px-8">
+          <p class="text-sm">
+            The rise of mobile devices transforms the way we consume information
+            entirely and the world's most elevant channels such as Facebook
           </p>
         </div>
-        <div class="flex flex-col gap-14">
-          <div class="flex items-center gap-4">
-            <img
-              src="./assets/illustrations/icons/fast-performance.png"
-              alt="fast performance icon"
-              class="w-16"
-            />
-            <div class="flex-1">
-              <h3 class="font-bold text-red-500">Fast Performance</h3>
-              <p class="text-sm">
-                Get your blood tests delivered at home collect a sample from the
-                news your blood tests
-              </p>
-            </div>
-          </div>
-          <div class="flex items-center gap-4">
-            <img
-              src="./assets/illustrations/icons/prototype.png"
-              alt="fast performance icon"
-              class="w-16"
-            />
-            <div class="flex-1">
-              <h3 class="font-bold text-blue-500">Prototyping</h3>
-              <p class="text-sm">
-                Get your blood tests delivered at home collect a sample from the
-                news your blood tests
-              </p>
-            </div>
-          </div>
-          <div class="flex items-center gap-4">
-            <img
-              src="./assets/illustrations/icons/vector.png"
-              alt="fast performance icon"
-              class="w-16"
-            />
-            <div class="flex-1">
-              <h3 class="font-bold text-green-500">Vector Editing</h3>
-              <p class="text-sm">
-                Get your blood tests delivered at home collect a sample from the
-                news your blood tests
-              </p>
-            </div>
-          </div>
+      </section>
+      <!-- bullet points section -->
+      <section
+        class="grid grid-cols-[310px_310px_310px] place-content-center py-10"
+      >
+        <div class="px-8">
+          <img
+            class="w-16"
+            src="/pics/illustrations/icons/automatic.png"
+            alt=""
+          />
+          <h3 class="pb-2 pt-4 font-bold text-red-500">Automatic Payouts</h3>
+          <p class="text-sm">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests
+          </p>
         </div>
-      </div>
-    </section>
-
-    <!-- catchphrase section -->
-    <section class="grid grid-cols-[500px_500px] place-content-center py-10">
-      <div class="main-title self-center justify-self-end border-r-2 px-8">
-        <p>Smart jackpots that you may love this anytime & anywhere</p>
-      </div>
-      <div class="self-center justify-self-start px-8">
-        <p class="text-sm">
-          The rise of mobile devices transforms the way we consume information
-          entirely and the world's most elevant channels such as Facebook
-        </p>
-      </div>
-    </section>
-
-    <!-- bullet points section -->
-    <section
-      class="grid grid-cols-[310px_310px_310px] place-content-center py-10"
-    >
-      <div class="px-8">
-        <img
-          class="w-16"
-          src="./assets/illustrations/icons/automatic.png"
-          alt=""
-        />
-        <h3 class="pb-2 pt-4 font-bold text-red-500">Automatic Payouts</h3>
-        <p class="text-sm">
-          Get your blood tests delivered at home collect a sample from the news
-          your blood tests
-        </p>
-      </div>
-      <div class="px-8">
-        <img
-          class="w-16"
-          src="./assets/illustrations/icons/network.png"
-          alt=""
-        />
-        <h3 class="pb-2 pt-4 font-bold text-blue-500">Network Effect</h3>
-        <p class="text-sm">
-          Get your blood tests delivered at home collect a sample from the news
-          your blood tests
-        </p>
-      </div>
-      <div class="px-8">
-        <img
-          class="w-16"
-          src="./assets/illustrations/icons/rewards.png"
-          alt=""
-        />
-        <h3 class="pb-2 pt-4 font-bold text-green-500">
-          Bigger Rewards Method
-        </h3>
-        <p class="text-sm">
-          Get your blood tests delivered at home collect a sample from the news
-          your blood tests
-        </p>
-      </div>
-    </section>
-
-    <!-- secondary hero section -->
-    <section class="grid grid-cols-[500px_500px] place-content-center py-10">
-      <img src="./assets/illustrations/call-to-action.png" alt="" />
-      <div class="flex flex-col items-center justify-center p-20">
-        <h1 class="main-title">
-          Designed & built by the latest code integration
-        </h1>
-        <p class="py-6">
-          The rise of mobile devices transforms the way we consume information
-          entirely and the world's most elevant channels such as Facebook
-        </p>
-        <button class="btn-primary self-start">Learn more</button>
-      </div>
-    </section>
-
-    <!-- explanation section -->
-    <section
-      class="grid grid-flow-row grid-cols-[minmax(300px,500px)] place-content-center py-10"
-    >
-      <h1 class="main-title text-center">Why you should choose our app</h1>
-      <p class="pt-10 text-center text-sm">
-        The rise of mobile devices transforms the way we consume information
-        entirely and the world's most elevant channels such as Facebook.
-      </p>
-    </section>
-
-    <!-- bullet point section -->
-    <section
-      class="grid grid-cols-[310px_310px_310px] place-content-center py-10"
-    >
-      <div class="flex flex-col items-center p-8">
-        <img class="w-16" src="/assets/illustrations/icons/app.png" alt="" />
-        <h3 class="pb-2 pt-4 font-bold">App Development</h3>
-        <p class="text-center text-sm">
-          Get your blood tests delivered at home collect a sample from the news
-          your blood tests
-        </p>
-      </div>
-      <div class="flex flex-col items-center p-8">
-        <img
-          class="w-16"
-          src="/assets/illustrations/icons/time-award.png"
-          alt=""
-        />
-        <h3 class="pb-2 pt-4 font-bold">10 Times Award</h3>
-        <p class="text-center text-sm">
-          Get your blood tests delivered at home collect a sample from the news
-          your blood tests
-        </p>
-      </div>
-      <div class="flex flex-col items-center p-8">
-        <img class="w-16" src="/assets/illustrations/icons/cloud.png" alt="" />
-        <h3 class="pb-2 pt-4 font-bold">Cloud Storage</h3>
-        <p class="text-center text-sm">
-          Get your blood tests delivered at home collect a sample from the news
-          your blood tests
-        </p>
-      </div>
-      <div class="flex flex-col items-center p-8">
-        <img
-          class="w-16"
-          src="/assets/illustrations/icons/customization.png"
-          alt=""
-        />
-        <h3 class="pb-2 pt-4 font-bold">Customization</h3>
-        <p class="text-center text-sm">
-          Get your blood tests delivered at home collect a sample from the news
-          your blood tests
-        </p>
-      </div>
-      <div class="flex flex-col items-center p-8">
-        <img class="w-16" src="/assets/illustrations/icons/ux.png" alt="" />
-        <h3 class="pb-2 pt-4 font-bold">UX Planning</h3>
-        <p class="text-center text-sm">
-          Get your blood tests delivered at home collect a sample from the news
-          your blood tests
-        </p>
-      </div>
-      <div class="flex flex-col items-center p-8">
-        <img
-          class="w-16"
-          src="/assets/illustrations/icons/support.png"
-          alt=""
-        />
-        <h3 class="pb-2 pt-4 font-bold">Customer Support</h3>
-        <p class="text-center text-sm">
-          Get your blood tests delivered at home collect a sample from the news
-          your blood tests
-        </p>
-      </div>
-    </section>
-
-    <!-- tertiary hero section -->
-    <section class="grid grid-cols-[500px_500px] place-content-center py-10">
-      <div>
-        <div>
-          <h1 class="main-title">Ultimate features that we built</h1>
+        <div class="px-8">
+          <img
+            class="w-16"
+            src="/pics/illustrations/icons/network.png"
+            alt=""
+          />
+          <h3 class="pb-2 pt-4 font-bold text-blue-500">Network Effect</h3>
+          <p class="text-sm">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests
+          </p>
+        </div>
+        <div class="px-8">
+          <img
+            class="w-16"
+            src="/pics/illustrations/icons/rewards.png"
+            alt=""
+          />
+          <h3 class="pb-2 pt-4 font-bold text-green-500">
+            Bigger Rewards Method
+          </h3>
+          <p class="text-sm">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests
+          </p>
+        </div>
+      </section>
+      <!-- secondary hero section -->
+      <section class="grid grid-cols-[500px_500px] place-content-center py-10">
+        <img src="/pics/illustrations/call-to-action.png" alt="" />
+        <div class="flex flex-col items-center justify-center p-20">
+          <h1 class="main-title">
+            Designed & built by the latest code integration
+          </h1>
           <p class="py-6">
             The rise of mobile devices transforms the way we consume information
-            entirely
+            entirely and the world's most elevant channels such as Facebook
           </p>
+          <button class="btn-primary self-start">Learn more</button>
         </div>
-        <div>
-          <div class="grid grid-cols-2 grid-rows-2 gap-14">
-            <div>
-              <img
-                class="w-16"
-                src="/assets/illustrations/icons/app.png"
-                alt=""
-              />
-              <h3 class="py-4 font-bold">App Development</h3>
-              <p class="text-sm">
-                Get your blood tests delivered at home collect a sample from the
-                news your blood tests
-              </p>
-            </div>
-            <div>
-              <img
-                class="w-16"
-                src="/assets/illustrations/icons/ux.png"
-                alt=""
-              />
-              <h3 class="py-4 font-bold">UX Planning</h3>
-              <p class="text-sm">
-                Get your blood tests delivered at home collect a sample from the
-                news your blood tests
-              </p>
-            </div>
-            <div>
-              <img
-                class="w-16"
-                src="/assets/illustrations/icons/cloud.png"
-                alt=""
-              />
-              <h3 class="py-4 font-bold">Cloud Storage</h3>
-              <p class="text-sm">
-                Get your blood tests delivered at home collect a sample from the
-                news your blood tests
-              </p>
-            </div>
-            <div>
-              <img
-                class="w-16"
-                src="/assets/illustrations/icons/support.png"
-                alt=""
-              />
-              <h3 class="py-4 font-bold">Customer Support</h3>
-              <p class="text-sm">
-                Get your blood tests delivered at home collect a sample from the
-                news your blood tests
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img src="./assets/illustrations/ultimate-feature.png" alt="" />
-    </section>
-
-    <!-- subscription section -->
-    <section
-      class="grid grid-flow-row grid-cols-[minmax(300px,_600px)] place-content-center gap-14 py-10"
-    >
-      <div>
-        <h1 class="main-title text-center">
-          Get awesome features without extra charges
-        </h1>
-        <p class="pt-6 text-center">
+      </section>
+      <!-- explanation section -->
+      <section
+        class="grid grid-flow-row grid-cols-[minmax(300px,500px)] place-content-center py-10"
+      >
+        <h1 class="main-title text-center">Why you should choose our app</h1>
+        <p class="pt-10 text-center text-sm">
           The rise of mobile devices transforms the way we consume information
-          entirely and the world's most relevant channels such as Facebook.
+          entirely and the world's most elevant channels such as Facebook.
         </p>
-      </div>
-
-      <div class="flex flex-col items-center justify-center">
-        <div class="flex flex-row gap-2 rounded-full border-2 p-0.5">
-          <p class="btn-secondary-active">Monthly</p>
-          <p class="btn-secondary-inactive">Annually</p>
-        </div>
-
-        <div class="flex gap-8 pt-10">
-          <div>
-            <div class="h-96 w-60 rounded-lg border-2 border-transparent">
-              <div
-                class="flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-100 p-8"
-              >
-                <p class="main-title">
-                  $0 <span class="text-base font-light">/ month</span>
-                </p>
-                <p class="text-base font-bold">Business Class</p>
-                <p class="text-sm">For small teams or office</p>
-              </div>
-              <div class="flex flex-col items-center p-4">
-                <ul class="pb-2 text-sm text-gray-500">
-                  <li class="py-2">Drag & Drop Builder</li>
-                  <li class="py-2">1000's of Templates</li>
-                  <li class="py-2">Blog Support Tools</li>
-                  <li class="py-2">eCommerce Store</li>
-                </ul>
-                <button class="btn-primary">Start Free Trial</button>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="w-60 rounded-lg border-2">
-              <div
-                class="flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-100 p-8"
-              >
-                <p class="main-title">
-                  $99 <span class="text-base font-light">/ month</span>
-                </p>
-                <p class="text-base font-bold">Pro Master</p>
-                <p class="text-sm">For best opportunities</p>
-              </div>
-              <div class="flex flex-col items-center p-4">
-                <ul class="pb-2 text-sm text-gray-500">
-                  <li class="py-2">Drag & Drop Builder</li>
-                  <li class="py-2">1000's of Templates</li>
-                  <li class="py-2">Blog Support Tools</li>
-                  <li class="py-2">eCommerce Store</li>
-                </ul>
-                <button class="btn-primary">Subscribe Now</button>
-                <p class="pb-2 pt-4 text-sm font-semibold text-indigo-800">
-                  Or Start 14 days trial!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- testimonial section -->
-    <section class="grid grid-cols-[500px_500px] place-content-center py-10">
-      <img src="./assets/illustrations/testimonial.png" alt="" />
-      <div>
-        <h1 class="main-title">Meet Client Satisfaction by using product</h1>
-        <p class="py-4">
-          The rise of mobile devices transforms the way we consume elevant
-          channels such as Facebook.
-        </p>
-        <div class="">⭐⭐⭐⭐⭐</div>
-        <h2 class="py-4 text-lg font-bold">User friendly & Customizable</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ad,
-          quia nobis assumenda dolores inventore sint facere. Quisquam laborum
-          quo sed sapiente placeat eius ut dolorum culpa, id officia aut aliquid
-          rem officiis, quidem nisi quos numquam provident. Cumque, tempora?
-        </p>
-        <div class="flex items-center justify-between py-8">
-          <div class="flex items-center">
-            <img src="./assets/gallery/user.png" class="w-16" alt="" />
-            <div class="px-4">
-              <h3 class="font-bold">Zoltan Nemeth</h3>
-              <p>CEO of Pixier Lab</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- faq section -->
-    <section
-      class="grid grid-cols-[minmax(300px,_800px)] place-content-center py-10"
-    >
-      <div class="flex flex-col items-center justify-center">
-        <h1 class="main-title pb-8">Frequently asked questions</h1>
-        <p class="pb-10">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quod
-          a iste illo animi ipsa reiciendis consequatur quos modi totam. Lorem
-          ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, quos!
-        </p>
-      </div>
-
-      <div class="grid grid-flow-row gap-4">
-        <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
-          <div class="flex items-center justify-between">
-            <h1 class="text-xl font-bold">
-              How to contact with riders emergency?
-            </h1>
-            <button class="text-xl font-bold">+</button>
-          </div>
-          <p class="hide-faq py-8 transition-all">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            est ex in rerum voluptate error quod, vero ut. Praesentium mollitia
-            officiis harum enim optio laudantium eum fugit dicta sequi
-            asperiores. Lorem ipsum dolor, sit
-          </p>
-        </div>
-
-        <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
-          <div class="flex items-center justify-between">
-            <h1 class="text-xl font-bold">
-              App installation failed how to update system information?
-            </h1>
-            <button class="text-xl font-bold">+</button>
-          </div>
-          <p class="hide-faq py-8 transition-all">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            est ex in rerum voluptate error quod, vero ut. Praesentium mollitia
-            officiis harum enim optio laudantium eum fugit dicta sequi
-            asperiores. Lorem ipsum dolor, sit
-          </p>
-        </div>
-
-        <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
-          <div class="flex items-center justify-between">
-            <h1 class="text-xl font-bold">
-              Website response taking too long, how to improve?
-            </h1>
-            <button class="text-xl font-bold">+</button>
-          </div>
-          <p class="hide-faq py-8 transition-all">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            est ex in rerum voluptate error quod, vero ut. Praesentium mollitia
-            officiis harum enim optio laudantium eum fugit dicta sequi
-            asperiores. Lorem ipsum dolor, sit
-          </p>
-        </div>
-
-        <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
-          <div class="flex items-center justify-between">
-            <h1 class="text-xl font-bold">
-              New update fixed all bugs and issues
-            </h1>
-            <button class="text-xl font-bold">+</button>
-          </div>
-          <p class="hide-faq py-8 transition-all">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            est ex in rerum voluptate error quod, vero ut. Praesentium mollitia
-            officiis harum enim optio laudantium eum fugit dicta sequi
-            asperiores. Lorem ipsum dolor, sit
-          </p>
-        </div>
-
-        <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
-          <div class="flex items-center justify-between">
-            <h1 class="text-xl font-bold">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed,
-              saepe?
-            </h1>
-            <button class="text-xl font-bold">+</button>
-          </div>
-          <p class="hide-faq py-8 transition-all">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            est ex in rerum voluptate error quod, vero ut. Praesentium mollitia
-            officiis harum enim optio laudantium eum fugit dicta sequi
-            asperiores. Lorem ipsum dolor, sit
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- call to action section -->
-    <section class="grid grid-cols-[500px_500px] place-content-center py-10">
-      <div class="flex flex-col">
-        <h1 class="main-title py-4">Download our App now!</h1>
-        <p class="py-4">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
-          inventore commodi porro sapiente quisquam voluptate corrupti, ex
-          facere molestiae reiciendis.
-        </p>
-        <div class="flex gap-8 pb-20 pt-4">
-          <img src="./assets/illustrations/google-play.png" alt="" />
-          <img src="./assets/illustrations/app-store.png" alt="" />
-        </div>
-      </div>
-      <img src="./assets/illustrations/cta.png" alt="" />
-    </section>
-
-    <!-- footer -->
-    <footer class="grid place-content-center bg-slate-900">
-      <div
-        class="flex items-center justify-center pt-14 text-2xl font-bold text-orange-500"
+      </section>
+      <!-- bullet point section -->
+      <section
+        class="grid grid-cols-[310px_310px_310px] place-content-center py-10"
       >
-        App<span class="text-white">Lab</span>
-      </div>
-      <div class="py-10">
-        <ul class="flex gap-12 text-sm font-normal text-white">
-          <li>Home</li>
-          <li>Key Features</li>
-          <li>Pricing</li>
-          <li>Testimonial</li>
-          <li>FAQ</li>
-        </ul>
-      </div>
-      <picture class="pb-10 text-center text-sm text-white opacity-30"
-        >made by
-        <a href="https://atwycodes.github.io/portfolio/">@atwycodes</a></picture
+        <div class="flex flex-col items-center p-8">
+          <img class="w-16" src="/pics/illustrations/icons/app.png" alt="" />
+          <h3 class="pb-2 pt-4 font-bold">App Development</h3>
+          <p class="text-center text-sm">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests
+          </p>
+        </div>
+        <div class="flex flex-col items-center p-8">
+          <img
+            class="w-16"
+            src="/pics/illustrations/icons/time-award.png"
+            alt=""
+          />
+          <h3 class="pb-2 pt-4 font-bold">10 Times Award</h3>
+          <p class="text-center text-sm">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests
+          </p>
+        </div>
+        <div class="flex flex-col items-center p-8">
+          <img class="w-16" src="/pics/illustrations/icons/cloud.png" alt="" />
+          <h3 class="pb-2 pt-4 font-bold">Cloud Storage</h3>
+          <p class="text-center text-sm">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests
+          </p>
+        </div>
+        <div class="flex flex-col items-center p-8">
+          <img
+            class="w-16"
+            src="/pics/illustrations/icons/customization.png"
+            alt=""
+          />
+          <h3 class="pb-2 pt-4 font-bold">Customization</h3>
+          <p class="text-center text-sm">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests
+          </p>
+        </div>
+        <div class="flex flex-col items-center p-8">
+          <img class="w-16" src="/pics/illustrations/icons/ux.png" alt="" />
+          <h3 class="pb-2 pt-4 font-bold">UX Planning</h3>
+          <p class="text-center text-sm">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests
+          </p>
+        </div>
+        <div class="flex flex-col items-center p-8">
+          <img
+            class="w-16"
+            src="/pics/illustrations/icons/support.png"
+            alt=""
+          />
+          <h3 class="pb-2 pt-4 font-bold">Customer Support</h3>
+          <p class="text-center text-sm">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests
+          </p>
+        </div>
+      </section>
+      <!-- tertiary hero section -->
+      <section class="grid grid-cols-[500px_500px] place-content-center py-10">
+        <div>
+          <div>
+            <h1 class="main-title">Ultimate features that we built</h1>
+            <p class="py-6">
+              The rise of mobile devices transforms the way we consume
+              information entirely
+            </p>
+          </div>
+          <div>
+            <div class="grid grid-cols-2 grid-rows-2 gap-14">
+              <div>
+                <img
+                  class="w-16"
+                  src="/pics/illustrations/icons/app.png"
+                  alt=""
+                />
+                <h3 class="py-4 font-bold">App Development</h3>
+                <p class="text-sm">
+                  Get your blood tests delivered at home collect a sample from
+                  the news your blood tests
+                </p>
+              </div>
+              <div>
+                <img
+                  class="w-16"
+                  src="/pics/illustrations/icons/ux.png"
+                  alt=""
+                />
+                <h3 class="py-4 font-bold">UX Planning</h3>
+                <p class="text-sm">
+                  Get your blood tests delivered at home collect a sample from
+                  the news your blood tests
+                </p>
+              </div>
+              <div>
+                <img
+                  class="w-16"
+                  src="/pics/illustrations/icons/cloud.png"
+                  alt=""
+                />
+                <h3 class="py-4 font-bold">Cloud Storage</h3>
+                <p class="text-sm">
+                  Get your blood tests delivered at home collect a sample from
+                  the news your blood tests
+                </p>
+              </div>
+              <div>
+                <img
+                  class="w-16"
+                  src="/pics/illustrations/icons/support.png"
+                  alt=""
+                />
+                <h3 class="py-4 font-bold">Customer Support</h3>
+                <p class="text-sm">
+                  Get your blood tests delivered at home collect a sample from
+                  the news your blood tests
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/pics/illustrations/ultimate-feature.png" alt="" />
+      </section>
+      <!-- subscription section -->
+      <section
+        class="grid grid-flow-row grid-cols-[minmax(300px,_600px)] place-content-center gap-14 py-10"
       >
-    </footer>
+        <div>
+          <h1 class="main-title text-center">
+            Get awesome features without extra charges
+          </h1>
+          <p class="pt-6 text-center">
+            The rise of mobile devices transforms the way we consume information
+            entirely and the world's most relevant channels such as Facebook.
+          </p>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div class="flex flex-row gap-2 rounded-full border-2 p-0.5">
+            <p class="btn-secondary-active">Monthly</p>
+            <p class="btn-secondary-inactive">Annually</p>
+          </div>
+          <div class="flex gap-8 pt-10">
+            <div>
+              <div class="h-96 w-60 rounded-lg border-2 border-transparent">
+                <div
+                  class="flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-100 p-8"
+                >
+                  <p class="main-title">
+                    $0 <span class="text-base font-light">/ month</span>
+                  </p>
+                  <p class="text-base font-bold">Business Class</p>
+                  <p class="text-sm">For small teams or office</p>
+                </div>
+                <div class="flex flex-col items-center p-4">
+                  <ul class="pb-2 text-sm text-gray-500">
+                    <li class="py-2">Drag & Drop Builder</li>
+                    <li class="py-2">1000's of Templates</li>
+                    <li class="py-2">Blog Support Tools</li>
+                    <li class="py-2">eCommerce Store</li>
+                  </ul>
+                  <button class="btn-primary">Start Free Trial</button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="w-60 rounded-lg border-2">
+                <div
+                  class="flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-100 p-8"
+                >
+                  <p class="main-title">
+                    $99 <span class="text-base font-light">/ month</span>
+                  </p>
+                  <p class="text-base font-bold">Pro Master</p>
+                  <p class="text-sm">For best opportunities</p>
+                </div>
+                <div class="flex flex-col items-center p-4">
+                  <ul class="pb-2 text-sm text-gray-500">
+                    <li class="py-2">Drag & Drop Builder</li>
+                    <li class="py-2">1000's of Templates</li>
+                    <li class="py-2">Blog Support Tools</li>
+                    <li class="py-2">eCommerce Store</li>
+                  </ul>
+                  <button class="btn-primary">Subscribe Now</button>
+                  <p class="pb-2 pt-4 text-sm font-semibold text-indigo-800">
+                    Or Start 14 days trial!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial section -->
+      <section class="grid grid-cols-[500px_500px] place-content-center py-10">
+        <img src="/pics/illustrations/testimonial.png" alt="" />
+        <div>
+          <h1 class="main-title">Meet Client Satisfaction by using product</h1>
+          <p class="py-4">
+            The rise of mobile devices transforms the way we consume elevant
+            channels such as Facebook.
+          </p>
+          <div class="">⭐⭐⭐⭐⭐</div>
+          <h2 class="py-4 text-lg font-bold">User friendly & Customizable</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
+            ad, quia nobis assumenda dolores inventore sint facere. Quisquam
+            laborum quo sed sapiente placeat eius ut dolorum culpa, id officia
+            aut aliquid rem officiis, quidem nisi quos numquam provident.
+            Cumque, tempora?
+          </p>
+          <div class="flex items-center justify-between py-8">
+            <div class="flex items-center">
+              <img src="/pics/gallery/user.png" class="w-16" alt="" />
+              <div class="px-4">
+                <h3 class="font-bold">Zoltan Nemeth</h3>
+                <p>CEO of Pixier Lab</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- faq section -->
+      <section
+        class="grid grid-cols-[minmax(300px,_800px)] place-content-center py-10"
+      >
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="main-title pb-8">Frequently asked questions</h1>
+          <p class="pb-10">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+            quod a iste illo animi ipsa reiciendis consequatur quos modi totam.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Asperiores, quos!
+          </p>
+        </div>
+        <div class="grid grid-flow-row gap-4">
+          <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
+            <div class="flex items-center justify-between">
+              <h1 class="text-xl font-bold">
+                How to contact with riders emergency?
+              </h1>
+              <button class="text-xl font-bold">+</button>
+            </div>
+            <p class="hide-faq py-8 transition-all">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              est ex in rerum voluptate error quod, vero ut. Praesentium
+              mollitia officiis harum enim optio laudantium eum fugit dicta
+              sequi asperiores. Lorem ipsum dolor, sit
+            </p>
+          </div>
+          <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
+            <div class="flex items-center justify-between">
+              <h1 class="text-xl font-bold">
+                App installation failed how to update system information?
+              </h1>
+              <button class="text-xl font-bold">+</button>
+            </div>
+            <p class="hide-faq py-8 transition-all">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              est ex in rerum voluptate error quod, vero ut. Praesentium
+              mollitia officiis harum enim optio laudantium eum fugit dicta
+              sequi asperiores. Lorem ipsum dolor, sit
+            </p>
+          </div>
+          <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
+            <div class="flex items-center justify-between">
+              <h1 class="text-xl font-bold">
+                Website response taking too long, how to improve?
+              </h1>
+              <button class="text-xl font-bold">+</button>
+            </div>
+            <p class="hide-faq py-8 transition-all">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              est ex in rerum voluptate error quod, vero ut. Praesentium
+              mollitia officiis harum enim optio laudantium eum fugit dicta
+              sequi asperiores. Lorem ipsum dolor, sit
+            </p>
+          </div>
+          <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
+            <div class="flex items-center justify-between">
+              <h1 class="text-xl font-bold">
+                New update fixed all bugs and issues
+              </h1>
+              <button class="text-xl font-bold">+</button>
+            </div>
+            <p class="hide-faq py-8 transition-all">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              est ex in rerum voluptate error quod, vero ut. Praesentium
+              mollitia officiis harum enim optio laudantium eum fugit dicta
+              sequi asperiores. Lorem ipsum dolor, sit
+            </p>
+          </div>
+          <div class="faq-toggle border-2 bg-gray-100 px-8 py-4">
+            <div class="flex items-center justify-between">
+              <h1 class="text-xl font-bold">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed,
+                saepe?
+              </h1>
+              <button class="text-xl font-bold">+</button>
+            </div>
+            <p class="hide-faq py-8 transition-all">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              est ex in rerum voluptate error quod, vero ut. Praesentium
+              mollitia officiis harum enim optio laudantium eum fugit dicta
+              sequi asperiores. Lorem ipsum dolor, sit
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- call to action section -->
+      <section class="grid grid-cols-[500px_500px] place-content-center py-10">
+        <div class="flex flex-col">
+          <h1 class="main-title py-4">Download our App now!</h1>
+          <p class="py-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+            inventore commodi porro sapiente quisquam voluptate corrupti, ex
+            facere molestiae reiciendis.
+          </p>
+          <div class="flex gap-8 pb-20 pt-4">
+            <img src="/pics/illustrations/google-play.png" alt="" />
+            <img src="/pics/illustrations/app-store.png" alt="" />
+          </div>
+        </div>
+        <img src="/pics/illustrations/cta.png" alt="" />
+      </section>
+      <!-- footer -->
+      <footer class="grid place-content-center bg-slate-900">
+        <div
+          class="flex items-center justify-center pt-14 text-2xl font-bold text-orange-500"
+        >
+          App<span class="text-white">Lab</span>
+        </div>
+        <div class="py-10">
+          <ul class="flex gap-12 text-sm font-normal text-white">
+            <li>Home</li>
+            <li>Key Features</li>
+            <li>Pricing</li>
+            <li>Testimonial</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <picture class="pb-10 text-center text-sm text-white opacity-30"
+          >made by
+          <a href="https://atwycodes.github.io/portfolio/"
+            >@atwycodes</a
+          ></picture
+        >
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>

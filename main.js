@@ -1,9 +1,5 @@
 import "./style.css";
 
-const hideOtherFAQ = (elements) => {
-  elements.map();
-};
-
 function toggleFAQ() {
   const elements = Array.from(document.getElementsByClassName("faq-toggle"));
 
@@ -19,10 +15,6 @@ function toggleFAQ() {
       }
     });
   });
-
-  console.log(elements[0]);
-  console.log(elements[0].firstElementChild.lastElementChild);
-  console.log(elements[0].lastElementChild);
 }
 
 toggleFAQ();
