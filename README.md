@@ -1,6 +1,6 @@
 ## Take Home Task - KD
 
-### [Live Project](https://atwycodes.github.io/kd-take-home-task/)
+### [Live Project](https://main--whimsical-youtiao-cd4cbc.netlify.app/)
 
 This is a take home task to create a landing page based on a given design.
 
@@ -16,5 +16,6 @@ Some salient points:
 2. Assets were extracted from the given .psd file
 3. Website is suitable for viewing on a desktop
 4. Animations & interactivity were added for the FAQ section
+5. Website deployed using netlify.
 
 Done by [Andrew Tan](https://atwycodes.github.io/portfolio/)
